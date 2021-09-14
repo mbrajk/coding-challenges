@@ -7,6 +7,7 @@ the search parameter in the text to be searched. The characters do not need to b
 Each character in the text can be used only once.
 
 ####Examples
+
 Given the search parameter `aba` and the text `baxya` we can find `1` instance of `aba` in `baxya`
 
 Given the search parameter `aba` and the text `abc` we can find `0` instances of `aba` in `abc`
