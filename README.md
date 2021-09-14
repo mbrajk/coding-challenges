@@ -4,5 +4,6 @@ Mostly C# solutions but there is the occasional javascript/typescript implementa
 
 1. Find minimum value in sorted rotated array [C#]
 2. Find minimum length fence that encompasses all points [C#]
+3. Number of occurrences of a word in a string [C#]
 
 
