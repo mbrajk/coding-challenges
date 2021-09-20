@@ -56,5 +56,18 @@ namespace DistinctSubsequences.Test
 
             Assert.AreEqual(result, 0);
         }
+        
+        [TestMethod]
+        public void TestSlow()
+        {
+            // Arrange
+            var string1 = "bccbcdcabadabddbccaddcbabbaaacdba";
+            var string2 = "bccbbdc";
+            
+            // Act            
+            var result = Solution.NumDistinct(string1, string2);
+
+            Assert.AreEqual(result, 0);
+        }
     }
 }
