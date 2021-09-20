@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistinctSubsequences", "DistinctSubsequences\DistinctSubsequences.csproj", "{E7A04DB8-679B-4E43-BF49-D3B73566ADF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistinctSubsequences.Test", "DistinctSubsequences.Test\DistinctSubsequences.Test.csproj", "{54E20809-D588-437F-8199-C5EE8C361E60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7A04DB8-679B-4E43-BF49-D3B73566ADF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A04DB8-679B-4E43-BF49-D3B73566ADF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A04DB8-679B-4E43-BF49-D3B73566ADF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A04DB8-679B-4E43-BF49-D3B73566ADF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E20809-D588-437F-8199-C5EE8C361E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E20809-D588-437F-8199-C5EE8C361E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E20809-D588-437F-8199-C5EE8C361E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E20809-D588-437F-8199-C5EE8C361E60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
