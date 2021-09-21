@@ -67,7 +67,7 @@ namespace DistinctSubsequences.Test
             // Act            
             var result = Solution.NumDistinct(string1, string2);
 
-            Assert.AreEqual(result, 0);
+            Assert.AreEqual(result, 172);
         }
     }
 }

@@ -26,7 +26,6 @@ namespace DistinctSubsequences
             
             var size = Math.Pow(2, baseString.Count);
 
-            var iters = 0;
             for (int counter = t.Length; counter < size; counter++)
             {
                 var currentString = "";
@@ -51,32 +50,6 @@ namespace DistinctSubsequences
                 {
                     foundSets.Add(binaryRepresentation);
                 }
-
-                iters++;
-                // if (theCharactersWeAreLookingAt.Distinct().Count() != t.Distinct().Count())
-                // {
-                //     continue;
-                // }
-                //
-                // for (var bitIndex = 0; bitIndex < binaryRepresentation.Length; bitIndex++)
-                // {
-                //     var currentBit = binaryRepresentation[bitIndex];
-                //
-                //     if (currentBit == '0')
-                //     {
-                //         continue;
-                //     }
-                //     
-                //     var currentCharacter = baseString.ElementAt(bitIndex);
-                //     currentString += currentCharacter;
-                //
-                //     iters++;
-                //     if (currentString.Length >= t.Length && currentString.Contains(t))
-                //     {
-                //         foundSets.Add(binaryRepresentation);
-                //         break;
-                //     }
-                // }
             }
 
             return foundSets.Count;
