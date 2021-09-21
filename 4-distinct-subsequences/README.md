@@ -1,4 +1,8 @@
-##Distinct Subsequences
+## Distinct Subsequences
+
+---
+
+**Solution Language: C#**
 
 Given two strings `s` and `t`, return the number of distinct subsequences of `s` which equals `t`.
 

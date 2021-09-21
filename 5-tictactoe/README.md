@@ -1,4 +1,8 @@
-##Tic-tac-toe game
+## Tic-tac-toe game
+
+---
+
+**Solution Language: C#**
 
 Follows the normal rules of tic-tac-toe
 
