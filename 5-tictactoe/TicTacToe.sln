@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindWinner.Test", "FindWinner.Test\FindWinner.Test.csproj", "{A6B1AF99-566B-431A-AF1F-AAD006427165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindWinner", "FindWinner\FindWinner.csproj", "{4675C94D-2F47-4EAE-A504-B882296CF1FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6B1AF99-566B-431A-AF1F-AAD006427165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B1AF99-566B-431A-AF1F-AAD006427165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B1AF99-566B-431A-AF1F-AAD006427165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B1AF99-566B-431A-AF1F-AAD006427165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4675C94D-2F47-4EAE-A504-B882296CF1FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4675C94D-2F47-4EAE-A504-B882296CF1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4675C94D-2F47-4EAE-A504-B882296CF1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4675C94D-2F47-4EAE-A504-B882296CF1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
