@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxLengthString.Test", "MaxLengthString.Test\MaxLengthString.Test.csproj", "{0F3DFACA-9CE8-46BB-BAC8-777058BE9A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxLengthString", "MaxLengthString\MaxLengthString.csproj", "{97236039-DD7E-4FF1-8AAE-7093EECF5E9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F3DFACA-9CE8-46BB-BAC8-777058BE9A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3DFACA-9CE8-46BB-BAC8-777058BE9A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3DFACA-9CE8-46BB-BAC8-777058BE9A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3DFACA-9CE8-46BB-BAC8-777058BE9A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97236039-DD7E-4FF1-8AAE-7093EECF5E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97236039-DD7E-4FF1-8AAE-7093EECF5E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97236039-DD7E-4FF1-8AAE-7093EECF5E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97236039-DD7E-4FF1-8AAE-7093EECF5E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
