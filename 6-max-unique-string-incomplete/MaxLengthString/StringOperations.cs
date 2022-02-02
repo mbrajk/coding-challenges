@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace MaxLengthString
 {
-    public static class StringOperations
+    public class StringOperations : IStringOperations
     {
-        public static int GetMaxLengthUniqueString(IList<string> arr)
+        // this implementation works for all of the unit tests i have in this solution but doesn't
+        // work with all of leetcode's tests. Additionally it is inefficient and builds more
+        // answers than necessary
+        public int GetMaxLengthUniqueString(IList<string> arr)
         {
             if (arr.Count == 0)
             {
