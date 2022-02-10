@@ -8,7 +8,7 @@ public class Program
     {
         IList<IList<int>> result = new List<IList<int>>();
 
-        if (root == null || root.Value == 0)
+        if (root == null)
         {
             return result;
         }
