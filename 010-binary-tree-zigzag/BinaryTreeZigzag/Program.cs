@@ -27,16 +27,19 @@ public class Program
             
             foreach (var node in nodesToVisit)
             {
-                levelList.Add(node.Value);
-                
-                if (node.Left != null)
+                if (node != null)
                 {
-                    nextList.Add(node.Left);
-                }
+                    levelList.Add(node.Value);
 
-                if (node.Right != null)
-                {
-                    nextList.Add(node.Right);
+                    if (node.Left != null)
+                    {
+                        nextList.Add(node.Left);
+                    }
+
+                    if (node.Right != null)
+                    {
+                        nextList.Add(node.Right);
+                    }
                 }
             }
 
