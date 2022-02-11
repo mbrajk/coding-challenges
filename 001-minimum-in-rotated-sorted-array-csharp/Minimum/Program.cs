@@ -1,46 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Minimum
+﻿namespace Minimum
 {
-    public class Program
-    {
-        static void Main()
-        {
-            var arrays = new List<int[]>();
-
-            arrays.Add(new[] { 5, 6, 2, 3, 4 }); //2
-            
-            arrays.Add(new[] { 1 }); //1
-            arrays.Add(new[] { 4, 5, 1, 2, 3 }); //1
-            
-            arrays.Add(new[] { 3, 4, 5, 1, 2 }); //1
-            arrays.Add(new[] { 4, 5, 6, 7, 8, 0, 2 }); //0
-            arrays.Add(new[] { 4, 5, 6, 7, 8, 1, 2 }); //1
-            arrays.Add(new[] { 4, 5, 6, 7, 0, 1, 2 }); //0
-            arrays.Add(new[] { 11, 13, 15, 17 }); //11
-
-            foreach (var array in arrays)
-            {
-                //Console.WriteLine(RotatedSortedArray.FindMinimumValue(array));
-                Console.WriteLine(RotatedSortedArray2.FindMinimumValue(array));
-            }
-        }
-    }
-
-	public static class RotatedSortedArray2
+    public static class RotatedSortedArray2
 	{
         public static int FindMinimumValue(int[] ints)
         {
             var lowest = 99999;
             var left = 0;
             var right = ints.Length-1;
-
-            // we check the middle, set it to lowest
-            // then we check left and right of middle to see if < or >
-            // if left is > than middle then we can ignore left since it would
-            // necessarily be increasing to that point
-            
             
             while (true)
             {
